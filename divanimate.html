@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+</head>
+<body>
+    <style>
+        @keyframes changecolor{
+            from{
+                background-color: chartreuse;
+                left: 10px;
+            }
+            to{
+                background-color: yellow;
+                left: 1000px;
+            }
+        }
+        div{
+            width: 100px;
+            height: 100px;
+            left: 10px;
+            position: relative;
+            background-color: rgb(33, 30, 196);
+            border-radius: 50%;
+            animation-name: changecolor;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-delay: 0s;
+        }
+    </style>
+    <div>
+        
+    </div>
+
+</body>
+</html>
