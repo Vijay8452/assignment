@@ -1,0 +1,13 @@
+h2{
+    background-color: blue;
+    color: black;
+    text-shadow: 2ch;
+    animation: forwards;
+    animation-duration: 10s;
+}
+p{
+    background-color: green;
+    color:cadetblue;
+    text-align: left;
+    padding-inline: 5;
+}
