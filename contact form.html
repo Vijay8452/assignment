@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form</title>
+    <style>
+        h1 {
+            background-color: chartreuse;
+            width: 200px;
+            color: rgb(0, 47, 141);
+        }
+        form {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Contact Us</h1>
+    <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required> <br>
+
+    <label for="email"> Email:</label>
+    <input type="email" id="email" name="email" required> <br>
+
+    <label> Gender:</label>
+    <input type="radio" id="male" name="Gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="Gender" value="female">
+    <label for="female">female</label><br>
+
+    <label for="interests">Interests:</label><br>
+    <input type="checkbox" id="coding" name="interests" value="coding">
+    <label for="coding">coding</label> <br>
+    <input type="checkbox" id="design" name="interests" value="design">
+    <label for="design">design</label> <br>
+    <input type="checkbox" id="animation" name="interests" value="Animation">
+    <label for="animation">animation</label> <br>
+    <input type="checkbox" id="developer" name="interests" value="developer">
+    <label for="developer">developer</label> <br>
+    
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="UK">UK</option>
+        <option value="US">US</option> 
+    </select> <br>
+    <label for="message"> message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
